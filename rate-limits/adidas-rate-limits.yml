@@ -1,0 +1,29 @@
+specification: API Commons Rate Limits
+specificationVersion: '0.1'
+schema: https://raw.githubusercontent.com/api-evangelist/interface-research/main/schema/api-commons.yml#/$defs/RateLimits
+provider: Adidas
+providerId: adidas
+created: '2026-05-16'
+modified: '2026-05-16'
+reconciled: false
+tags:
+  - Athletic Apparel
+  - Retail
+  - Rate Limiting
+description: Adidas does not publish a public developer API; therefore no public rate limits exist. Affiliate-network feeds are governed by the network's own throttling policies (Awin / Rakuten).
+notes: No public developer API — placeholder only.
+sources:
+  - https://www.adidas.com/
+responseCodes:
+  throttled: 429
+limits:
+  - name: No public rate limits
+    scope: account
+    metric: not_applicable
+    limit: not applicable
+policies:
+  - name: Affiliate-network throttling
+    description: Product feed download and API throttling on affiliate-network endpoints are set by the network operator, not by Adidas directly.
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

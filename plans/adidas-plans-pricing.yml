@@ -1,0 +1,39 @@
+specification: API Commons Plans
+specificationVersion: '0.1'
+schema: https://raw.githubusercontent.com/api-evangelist/interface-research/main/schema/api-commons.yml#/$defs/Plans
+provider: Adidas
+providerId: adidas
+created: '2026-05-16'
+modified: '2026-05-16'
+reconciled: false
+tags:
+  - Athletic Apparel
+  - Sportswear
+  - Retail
+description: Adidas has no active public developer portal and no published API pricing. Affiliate and marketplace partnerships are mediated by Awin, Rakuten Advertising, and bilateral retail-partner contracts.
+notes: No public developer API — placeholder only. Adidas previously operated developer.adidas.com but has discontinued public API distribution.
+sources:
+  - https://www.adidas.com/
+plans:
+  - id: adidas-affiliate-network
+    name: Affiliate-Network Access
+    type: enterprise
+    description: Adidas product catalogue and offer feeds are distributed through affiliate networks (Awin / Rakuten), not as a self-service developer API. Pricing is the network's commission model.
+    entries:
+      - label: Affiliate program
+        name: affiliate_program
+        type: revenue_share
+        metric: sale
+        limit: -1
+        timeFrame: year
+        geo: global
+        unit: 1
+        price: commission via Awin / Rakuten — see network for current rates
+        userMultiplied: false
+    elements:
+      - name: Awin Adidas program
+      - name: Rakuten Advertising Adidas program
+      - name: No standalone developer plan
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
