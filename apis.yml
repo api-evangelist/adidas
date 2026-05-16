@@ -9,9 +9,66 @@ tags:
   - Sportswear
 description: 'A German multinational corporation designing and manufacturing athletic shoes, apparel, and accessories. One of the world''s largest sportswear brands competing across performance and lifestyle markets.'
 created: '2026-05-05'
-modified: '2026-05-05'
+modified: '2026-05-16'
 specificationVersion: '0.19'
 apis: []
 common:
   - type: Website
     url: https://www.adidas.com/
+  - type: Login
+    url: https://www.adidas.com/us/login
+  - type: AffiliateProgram
+    url: https://www.adidas-group.com/en/about/our-network/our-partners
+  - type: GitHub
+    url: https://github.com/adidas
+  - type: Features
+    data:
+      - name: adiClub Loyalty
+        description: Adidas loyalty program rewarding members with points, exclusive products, and personalized experiences.
+      - name: Confirmed App
+        description: Mobile app providing access to limited-edition sneaker drops and reservation-based releases.
+      - name: E-commerce Storefront
+        description: Online storefront for footwear, apparel, and accessories across consumer and performance lines.
+      - name: Store Locator
+        description: Locate Adidas branded retail stores and authorized retailers worldwide.
+      - name: Runtastic / adidas Running
+        description: Adidas-owned running and fitness app (formerly Runtastic) tracking activity and integrating with adiClub.
+  - type: UseCases
+    data:
+      - name: Sportswear E-commerce
+        description: Direct-to-consumer e-commerce for performance footwear and apparel.
+      - name: Sneaker Drop Distribution
+        description: Allocated release of limited-edition footwear through the Confirmed app and adidas.com.
+      - name: Loyalty Engagement
+        description: Member engagement and retention through adiClub points, tiers, and personalized offers.
+      - name: Fitness Tracking
+        description: Activity tracking and training plans delivered through adidas Running and Training apps.
+  - type: Authentication
+    data:
+      - name: No Public Developer API
+        description: Adidas has retired its previous developer portal (developer.adidas.com) and no longer publishes a public developer API. Affiliate and marketplace partners integrate through bilateral feeds, networks like Awin/Rakuten, or commerce platforms.
+  - type: Compliance
+    data:
+      - name: GDPR
+        description: General Data Protection Regulation compliance for European customers and adiClub members.
+      - name: CCPA
+        description: California Consumer Privacy Act compliance for U.S. customer personal data.
+      - name: PCI DSS
+        description: Payment Card Industry Data Security Standard compliance for online card payments.
+      - name: German Supply Chain Due Diligence Act (LkSG)
+        description: Mandatory supply-chain human-rights and environmental due diligence applicable to Adidas as a large German parent company.
+  - type: Integrations
+    data:
+      - name: Awin
+        description: Awin affiliate network manages Adidas' affiliate program in most regions.
+      - name: Rakuten Advertising
+        description: Rakuten Advertising affiliate distribution in select markets.
+      - name: Confirmed App
+        description: Mobile Confirmed app for reservation-based sneaker releases.
+      - name: Strava
+        description: Activity sharing from adidas Running to Strava for joint athlete experience.
+      - name: Salesforce Commerce Cloud
+        description: Adidas runs portions of its e-commerce stack on Salesforce Commerce Cloud.
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
