@@ -104,6 +104,8 @@ common:
         description: Activity sharing from adidas Running to Strava for joint athlete experience.
       - name: Salesforce Commerce Cloud
         description: Adidas runs portions of its e-commerce stack on Salesforce Commerce Cloud.
+  - type: SpectralRules
+    url: https://github.com/adidas/api-guidelines/blob/222b294d13872d55befbf61b3ee60998fcb9e57b/.spectral.yml
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
