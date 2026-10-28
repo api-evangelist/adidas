@@ -1,4 +1,4 @@
-# Adidas (adidas)
+# Adidas
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,76 +66,101 @@
 
 A German multinational corporation designing and manufacturing athletic shoes, apparel, and accessories. One of the world's largest sportswear brands competing across performance and lifestyle markets.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/adidas/refs/heads/main/apis.yml)
+**Areas:** Athletic Apparel · Footwear · Sportswear · Fashion · Apparel
 
-**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=adidas-api-evangelist&utm_content=repo)
+## Adidas on APIs.io
 
-## Tags:
+Everything profiled for Adidas is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/adidas/](https://apis.io/providers/adidas/)** — or go straight to one of the APIs or properties below.
 
- - Athletic Apparel, Footwear, Sportswear
+### Published properties
 
-## Timestamps
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-- **Created:** 2026-05-05
-- **Modified:** 2026-05-16
+#### Governance rules (1)
 
-## APIs
+Spectral rulesets for the provider's contracts.
 
-Adidas has retired its previous developer portal (developer.adidas.com) and no longer publishes a public developer API. Affiliate and marketplace partners integrate through bilateral feeds, networks like Awin/Rakuten, or commerce platforms.
+- [Adidas — api guidelines rules](https://apis.io/rules/adidas/adidas-api-guidelines-spectral-rules/)
 
-## Common Properties
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Adidas Domain Security](https://apis.io/security/adidas/adidas-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Adidas Plans Pricing](https://apis.io/plans/adidas/adidas-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Adidas Rate Limits](https://apis.io/rate-limits/adidas/adidas-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Adidas Finops](https://apis.io/finops/adidas/adidas-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://www.adidas.com/)
-- [Login](https://www.adidas.com/us/login)
-- [AffiliateProgram](https://www.adidas-group.com/en/about/our-network/our-partners)
-- [GitHub](https://github.com/adidas)
 
-## Features
+## API Evangelist rating
 
-| Name | Description |
-|------|-------------|
-| adiClub Loyalty | Adidas loyalty program rewarding members with points, exclusive products, and personalized experiences. |
-| Confirmed App | Mobile app providing access to limited-edition sneaker drops and reservation-based releases. |
-| E-commerce Storefront | Online storefront for footwear, apparel, and accessories across consumer and performance lines. |
-| Store Locator | Locate Adidas branded retail stores and authorized retailers worldwide. |
-| Runtastic / adidas Running | Adidas-owned running and fitness app tracking activity and integrating with adiClub. |
+**Kin Score 18.2** — emerging · rubric 0.24.0 · scored 2026-10-17
 
-## Use Cases
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 45.5 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 11.9 |
+| Access clarity | 19.7 |
 
-| Name | Description |
-|------|-------------|
-| Sportswear E-commerce | Direct-to-consumer e-commerce for performance footwear and apparel. |
-| Sneaker Drop Distribution | Allocated release of limited-edition footwear through the Confirmed app and adidas.com. |
-| Loyalty Engagement | Member engagement and retention through adiClub points, tiers, and personalized offers. |
-| Fitness Tracking | Activity tracking and training plans delivered through adidas Running and Training apps. |
+**Agent readiness 3.1** — human-only
 
-## Authentication
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
 
-| Name | Description |
-|------|-------------|
-| No Public Developer API | Adidas has retired its previous developer portal and no longer publishes a public developer API. |
+**Regulatory alignment 16.7** — Horizontal (data, software, accessibility, platform)
 
-## Compliance
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/adidas/](https://apis.io/providers/adidas/).
 
-| Name | Description |
-|------|-------------|
-| GDPR | General Data Protection Regulation compliance for European customers and adiClub members. |
-| CCPA | California Consumer Privacy Act compliance for U.S. customer personal data. |
-| PCI DSS | Payment Card Industry Data Security Standard compliance for online card payments. |
-| German Supply Chain Due Diligence Act (LkSG) | Mandatory supply-chain human-rights and environmental due diligence applicable to Adidas as a large German parent company. |
+## How this profile is made
 
-## Integrations
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
 
-| Name | Description |
-|------|-------------|
-| Awin | Awin affiliate network manages Adidas' affiliate program in most regions. |
-| Rakuten Advertising | Rakuten Advertising affiliate distribution in select markets. |
-| Confirmed App | Mobile Confirmed app for reservation-based sneaker releases. |
-| Strava | Activity sharing from adidas Running to Strava for joint athlete experience. |
-| Salesforce Commerce Cloud | Adidas runs portions of its e-commerce stack on Salesforce Commerce Cloud. |
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Adidas: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
 
-## Maintainers
+## Open an issue
 
-**FN:** Kin Lane
-
-**Email:** kin@apievangelist.com
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/adidas/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
